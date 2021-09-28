@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">BaseAndroid</string>
+    <string name="ok">Ok</string>
+
+
+    <string name="general_channel_name">Preferred Time App General Channel</string>
+    <string name="channel_description">Preferred Time notification channel for the purpose of showing Notifications.</string>
+    <string name="general_notification_channel_id">base_general_notification_channel</string>
+</resources>

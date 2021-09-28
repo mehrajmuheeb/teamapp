@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "739771944373",
+    "project_id": "baseandroidnmg",
+    "storage_bucket": "baseandroidnmg.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:739771944373:android:1e86a0d17d7db719e9ddfc",
+        "android_client_info": {
+          "package_name": "com.baseandroid"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "739771944373-k1vv2sv9imp73nl9h7fqdun8qqut0sfu.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAvjhw2cP7dYobUg5LIVW4lWCv6OI1lgXM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "739771944373-k1vv2sv9imp73nl9h7fqdun8qqut0sfu.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
