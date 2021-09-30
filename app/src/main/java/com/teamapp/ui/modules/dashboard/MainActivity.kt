@@ -28,8 +28,8 @@ class MainActivity : BaseActivity<MainNavigator, MainViewModel, ActivityMainBind
     override fun init() {
         bind(MainViewModel::class.java)
 
-        viewModel.teamList.observe(this, Observer {
-            adapter.addItems(it)
+        viewModel.teamList.observe(this, Observer { names ->
+            adapter.addItems(names.sortedBy { it })
             adapter.notifyDataSetChanged()
         })
     }
