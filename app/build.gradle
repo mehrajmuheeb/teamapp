@@ -1,11 +1,5 @@
 apply plugin: 'com.android.application'
 
-//To use Firebase Crashlytics, we need to add this line.
-apply plugin: 'com.google.gms.google-services'
-
-// Apply the Crashlytics Gradle plugin
-apply plugin: 'com.google.firebase.crashlytics'
-
 apply plugin: 'kotlin-android'
 
 apply plugin: 'kotlin-android-extensions'
@@ -16,7 +10,7 @@ android {
     compileSdkVersion 29
     buildToolsVersion "29.0.3"
     defaultConfig {
-        applicationId "com.baseandroid"
+        applicationId "com.teamapp"
         minSdkVersion 17
         targetSdkVersion 29
         versionCode 1
@@ -86,11 +80,6 @@ dependencies {
     kapt 'com.google.dagger:dagger-compiler:2.27'
     kapt 'com.google.dagger:dagger-android-processor:2.27'
 
-    //Firebase - Notification, Crash Report
-    implementation platform('com.google.firebase:firebase-bom:26.1.1')
-    implementation 'com.google.firebase:firebase-crashlytics'
-    implementation 'com.google.firebase:firebase-analytics'
-    implementation 'com.google.firebase:firebase-messaging:21.1.0'
 
 
     implementation 'androidx.multidex:multidex:2.0.1'
